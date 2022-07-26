@@ -38,7 +38,7 @@ export default function Navbar() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="font-thin text-white text-lg">Izzo</span>
+                <span className="text-white text-lg">Izzo</span>
               </span>
             </div>
             <div className="hidden md:flex items-center space-x-1">

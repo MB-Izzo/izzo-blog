@@ -33,12 +33,18 @@ export default function Resume() {
       <div className="mt-5">
         <h2 className="text-2xl font-semibold mb-3 text-yellow">My tools</h2>
 				<div className="grid grid-flow-row gap-4 md:grid-flow-col">
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">JavaScript</div>
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">TypeScript</div>
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">C#</div>
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">C++</div>
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">Python</div>
-					<div className="border-white rounded-lg border-2 p-4 border-solid shadow-xl hover:bg-light-black transition duration-300">Brain</div>
+					<div className="bg-white w-full text-black p-0 h-10 flex items-center pl-1 pr-5">
+						{'>'} JavaScript_
+					</div>
+					<div className="bg-white w-full text-black p-0 h-10 flex items-center pl-1 pr-5">
+						{'>'} Typescript_
+					</div>
+					<div className="bg-white w-full text-black p-0 h-10 flex items-center pl-1 pr-5">
+						{'>'} C++_
+					</div>
+					<div className="bg-white w-full text-black p-0 h-10 flex items-center pl-1 pr-5">
+						{'>'} C#_
+					</div>
 				</div>
       </div>
     </div>
