@@ -7,14 +7,14 @@ import Link from "next/link";
 
 export default function Home({ posts }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-1 w-1/2 m-auto ls:grid-cols-4 p-4 md:p-0">
+    <div className="w-1/2 m-auto p-4 md:p-0">
       {posts.map(({ slug, frontmatter }) => (
         <div
           key={slug}
-          className="m-2 p-4 rounded-xl overflow-hidden flex flex-col"
+          className="m-2 p-4 rounded-xl overflow-hidden"
         >
           <Link href={`/post/${slug}`}>
-            <a>
+            <a className="inline-block">
               <h2 className="text-yellow text-sm leading-8">
                 {frontmatter.date} {frontmatter.tags}
               </h2>
