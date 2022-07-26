@@ -6,7 +6,7 @@ import highlightjs from 'markdown-it-highlightjs'
 export default function PostPage({ frontmatter, content }) {
   const mdd = md().use(highlightjs); 
   return (
-    <div className="prose prose-invert mx-auto">
+    <div className="prose prose-invert mx-auto mt-5">
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: mdd.render(content) }} />
     </div>
